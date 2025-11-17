@@ -1,0 +1,96 @@
+{
+    "Criaturas de desierto": [
+      {
+        "nombre": "Escorpión de Arena",
+        "coste": 1,
+        "fuerza": 2,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Inflige 1 daño directo a una criatura adyacente al final del turno.",
+        "coste_habilidad": 1,
+        "recurso_habilidad": "Energía Salvaje"
+      },
+      {
+        "nombre": "Víbora del Sol",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al atacar, la criatura objetivo pierde su habilidad este turno.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Canguro del Viento",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 3,
+        "tipo": "Aire",
+        "habilidad": "Se mueve a otra zona de territorio sin costo.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Camello de Arena",
+        "coste": 3,
+        "fuerza": 3,
+        "resistencia": 4,
+        "tipo": "Roca",
+        "habilidad": "Bloquea todos los ataques dirigidos a criaturas en su zona este turno.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Zorro del Desierto",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Roba 1 carta si sobrevive a un ataque.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Topo Cegador",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al entrar en juego, mueve una criatura enemiga de su zona a una adyacente al azar.",
+        "coste_habilidad": 1,
+        "recurso_habilidad": "Energía Salvaje"
+      },
+      {
+        "nombre": "Avestruz Centinela",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 2,
+        "tipo": "Aire",
+        "habilidad": "No puede ser atacado si hay otra criatura aliada en su zona.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Gacela de las Dunas",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al atacar, si la criatura objetivo tiene más Fuerza, esta criatura se mueve a una zona adyacente en lugar de combatir.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Búho de Arena",
+        "coste": 3,
+        "fuerza": 2,
+        "resistencia": 4,
+        "tipo": "Aire",
+        "habilidad": "Al final de tu turno, mira la carta superior del mazo enemigo y la colocas en la parte superior o inferior de su mazo.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Armadillo Rocal",
+        "coste": 2,
+        "fuerza": 1,
+        "resistencia": 4,
+        "tipo": "Roca",
+        "habilidad": "Al ser atacado, reduce el daño recibido a 1 (mínimo 1).",
+        "coste_habilidad": 1
+      }
+    ]
+}

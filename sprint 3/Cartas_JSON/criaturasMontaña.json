@@ -1,0 +1,94 @@
+{
+    "Criaturas de montaña": [
+      {
+        "nombre": "Águila Real",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 2,
+        "tipo": "Aire",
+        "habilidad": "Ataca desde cualquier zona a cualquier otra zona.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Alce",
+        "coste": 3,
+        "fuerza": 2,
+        "resistencia": 6,
+        "tipo": "Roca",
+        "habilidad": "No puede ser objetivo de habilidades enemigas.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Chivo Montés",
+        "coste": 1,
+        "fuerza": 2,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al atacar, empuja a la criatura objetivo a una zona adyacente.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Leopardo de las nieves",
+        "coste": 3,
+        "fuerza": 4,
+        "resistencia": 3,
+        "tipo": "Aire",
+        "habilidad": "Inflige 2 daño a todas las criaturas enemigas en su zona.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Venado de las Alturas",
+        "coste": 2,
+        "fuerza": 1,
+        "resistencia": 3,
+        "tipo": "Bestia",
+        "habilidad": "Roba 1 carta y recupera 1 Energía Salvaje.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Cóndor Andino",
+        "coste": 3,
+        "fuerza": 4,
+        "resistencia": 2,
+        "tipo": "Aire",
+        "habilidad": "Al atacar, destruye una criatura enemiga con Resistencia ≤ 2 en su zona.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Marmota de Risco",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 3,
+        "tipo": "Bestia",
+        "habilidad": "Al inicio de tu turno, si está sola en su zona, recupera 1 Energía Salvaje.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Salamandra de Cumbre",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al morir, inflige 2 daño a una criatura enemiga en su zona.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Tejón Montañés",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 3,
+        "tipo": "Bestia",
+        "habilidad": "Al atacar, ignora habilidades de bloqueo o protección de la criatura objetivo.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Cabra montesa",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 3,
+        "tipo": "Aire",
+        "habilidad": "Al final de tu turno, si no atacó, todas las criaturas aliadas en su zona ganan +1 Resistencia hasta tu próximo turno.",
+        "coste_habilidad": 1
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+  {
+  "territorios": [
+    {"nombre": "Desierto Abrasador",
+      "entorno": "Desierto",
+      "costo": "1 energía",
+      "efecto": "Al final de cada turno, todas las criaturas sin el tipo Aire pierden 1 de Resistencia."
+    },
+    {
+      "nombre": "Selva Espesa",
+      "entorno": "Selva",
+      "efecto": "Las criaturas de tipo Planta o Bestia ganan +1 de Fuerza mientras estén en esta zona."
+    },
+    {
+      "nombre": "Tundra Helada",
+      "entorno": "Hielo",
+      "efecto": "Al comienzo del turno, todas las criaturas que no sean de tipo Hielo pierden 1 de Fuerza hasta el final del turno."
+    },
+    {
+      "nombre": "Cumbre Rocosa",
+      "entorno": "Montaña",
+      "efecto": "Las criaturas de tipo Roca o Aire ganan +1 de Resistencia. Las demás no pueden atacar desde esta zona."
+    }
+  ]
+}
