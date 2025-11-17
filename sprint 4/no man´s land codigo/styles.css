@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.screen {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.screen.active {
+    display: flex;
+}
+
+/* Pantalla 1 - Inicio */
+#screen1 {
+    background: linear-gradient(135deg, #6B1835 0%, #8B2846 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 5rem;
+    color: #FFF8DC;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.play-btn {
+    background: linear-gradient(135deg, #7CB342, #558B2F);
+    color: #FFF8DC;
+    font-size: 2.5rem;
+    padding: 1.5rem 4rem;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.play-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+#screen2 {
+    background: linear-gradient(180deg, #FFF8DC 0%, #F5E6D3 100%);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3rem;
+}
+
+.world-title {
+    font-size: 3.5rem;
+    color: #2C1810;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.territories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.territory {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.territory:hover {
+    transform: translateY(-10px);
+}
+
+.territory-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.territory-name {
+    font-size: 1.5rem;
+    color: #2C1810;
+    font-weight: bold;
+}
+
+.continue-btn {
+    background: linear-gradient(135deg, #7CB342, #558B2F);
+    color: #FFF8DC;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.continue-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Pantalla 3 - Selección de jugadores */
+#screen3 {
+    background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.players-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.player-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-label {
+    background: linear-gradient(135deg, #1a237e, #0d47a1);
+    color: white;
+    font-size: 2.5rem;
+    padding: 1.5rem 3rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.deck-area {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.deck-card {
+    background: #1a237e;
+    color: white;
+    width: 120px;
+    height: 160px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.deck-card:hover {
+    transform: scale(1.05);
+}
+
+.divider {
+    width: 2px;
+    background: white;
+    margin: 0 2rem;
+}
+
+.start-game-btn {
+    position: absolute;
+    bottom: 3rem;
+    background: linear-gradient(135deg, #7CB342, #558B2F);
+    color: white;
+    font-size: 2rem;
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.start-game-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Pantalla 4 - Tablero de juego */
+#screen4 {
+    background: linear-gradient(135deg, #6B1835 0%, #8B2846 100%);
+    padding: 1.5rem;
+}
+
+.game-header {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
+
+.exit-btn {
+    background: #4DD0E1;
+    color: #2C1810;
+    font-size: 1.3rem;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+.game-board {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+/* Área superior - Player 1 */
+.top-player {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    align-items: start;
+    padding: 0 2rem;
+}
+
+/* Área central - Zona de juego */
+.middle-area {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+/* Área inferior - Player 2 */
+.bottom-player {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    align-items: end;
+    padding: 0 2rem;
+}
+
+.card-slot {
+    background: #FFF8DC;
+    border: 2px solid #2C1810;
+    border-radius: 15px;
+    aspect-ratio: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2C1810;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+    min-height: 120px;
+}
+
+.card-slot.special {
+    background: #1a237e;
+    color: white;
+}
+
+.card-slot.conquered {
+    background: #D2B48C;
+}
+
+.central-zone {
+    background: rgba(255, 248, 220, 0.15);
+    border: 3px dashed #FFF8DC;
+    border-radius: 20px;
+    padding: 2rem;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF8DC;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+/* Pantalla 5 - Victoria */
+#screen5 {
+    background: linear-gradient(135deg, #FFF8DC 0%, #FFE8B8 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.crown-icon {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+.victory-text {
+    font-size: 4rem;
+    color: #2C1810;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.options-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.options-btn {
+    background: linear-gradient(135deg, #FFB6C1, #FF69B4);
+    color: white;
+    font-size: 2rem;
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.options-btn:hover {
+    transform: scale(1.05);
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.submenu.active {
+    display: flex;
+}
+
+.submenu-btn {
+    background: linear-gradient(135deg, #8B6F6F, #6B5555);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+}
+
+.submenu-btn:hover {
+    transform: scale(1.05);
+}
+
+.leave-btn {
+    background: #4DD0E1;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+/* Pantalla 6 - Game Over */
+#screen6 {
+    background: linear-gradient(135deg, #FFB6C1 0%, #FFC0CB 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.game-over-text {
+    font-size: 4rem;
+    color: #2C1810;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.subtitle-text {
+    font-size: 2rem;
+    color: #2C1810;
+    margin-bottom: 3rem;
+}
+
+.buttons-label {
+    font-size: 1.8rem;
+    color: #2C1810;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu-btn {
+    background: linear-gradient(135deg, #8B6F6F, #6B5555);
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+    min-width: 250px;
+}
+
+.menu-btn:hover {
+    transform: scale(1.05);
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
