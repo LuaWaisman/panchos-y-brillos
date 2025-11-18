@@ -1,0 +1,93 @@
+{
+ "Criaturas de selva": [
+      {
+        "nombre": "Jaguar Sombrío",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 3,
+        "tipo": "Bestia",
+        "habilidad": "Ataca una criatura sin que esta pueda contraatacar.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Tortuga Estranguladora",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 3,
+        "tipo": "Planta",
+        "habilidad": "Inmoviliza a una criatura enemiga (no puede moverse ni atacar) hasta tu próximo turno.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Cocodrilo",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Intercambia las posiciones de dos criaturas en el tablero.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Camaleón Centinela",
+        "coste": 3,
+        "fuerza": 2,
+        "resistencia": 5,
+        "tipo": "Planta",
+        "habilidad": "Todas las criaturas aliadas en esta zona ganan +1 Resistencia.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Rana Venenosa",
+        "coste": 1,
+        "fuerza": 2,
+        "resistencia": 1,
+        "tipo": "Bestia",
+        "habilidad": "Al morir, inflige 1 daño a todas las criaturas enemigas en su zona.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Tucán Tramposo",
+        "coste": 1,
+        "fuerza": 2,
+        "resistencia": 1,
+        "tipo": "Aire",
+        "habilidad": "Al atacar, intercambia la Fuerza de esta criatura con la de la criatura objetivo hasta el final del turno.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Perezoso Colgante",
+        "coste": 2,
+        "fuerza": 1,
+        "resistencia": 4,
+        "tipo": "Bestia",
+        "habilidad": "Al final de tu turno, si no atacó, recupera 1 Energía Salvaje.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Hormiguero Gigante",
+        "coste": 3,
+        "fuerza": 2,
+        "resistencia": 5,
+        "tipo": "Planta",
+        "habilidad": "Al inicio de tu turno, crea una ficha de Hormiga (1/1, Bestia) en su zona.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Murciélago Frugívoro",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Aire",
+        "habilidad": "Al morir, otorga +1 Resistencia a una criatura aliada en su zona.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Puercoespín de Selva",
+        "coste": 2,
+        "fuerza": 3,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al ser atacado, inflige 1 daño al atacante.",
+        "coste_habilidad": 1
+      }
+    ]}

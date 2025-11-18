@@ -1,0 +1,69 @@
+{ 
+    "Bestias": [
+    {"nombre": "Bestia de las Dunas",
+      "fusion_de": ["Escorpión de Arena", "Víbora del Sol"],
+      "coste": 3,
+      "fuerza": 4,
+      "resistencia": 4,
+      "tipo": "Bestia",
+      "habilidades_originales": [
+        "Inflige 1 daño directo al final del turno.",
+        "La criatura atacada pierde su habilidad."
+      ],
+      "habilidad_nueva": "Ataca dos veces en el mismo turno."
+    },
+     {
+      "nombre": "Guardián de la Selva",
+      "fusion_de": ["Jaguar Sombrío", "Camaleón Centinela"],
+      "coste": 3,
+      "fuerza": 4,
+      "resistencia": 6,
+      "tipo": "Bestia/Planta",
+      "habilidades_originales": [
+        "Ataca sin contraataque.",
+        "Aliados ganan +1 Resistencia."
+      ],
+      "habilidad_nueva": "Al ser atacado, el daño se reparte equitativamente entre todas las criaturas aliadas en la zona."
+    },
+     {
+      "nombre": "Témpano Viviente",
+      "fusion_de": ["Lobo Glacial", "Oso Polar"],
+      "coste": 3,
+      "fuerza": 3,
+      "resistencia": 4,
+      "tipo": "Hielo",
+      "habilidades_originales": [
+        "Congela criaturas atacadas.",
+        "Reduce coste de próxima criatura."
+      ],
+      "habilidad_nueva": "Congela todas las criaturas enemigas en su zona al final del turno."
+    },
+    {
+      "nombre": "Escarcha del Desierto",
+      "fusion_de": ["Topo Cegador", "Liebre Ártica"],
+      "coste": 2,
+      "fuerza": 3,
+      "resistencia": 3,
+      "tipo": "Bestia",
+      "habilidad_nueva": "Si se mueve por cualquiera de sus efectos, congela a una criatura en la zona de destino (no puede atacar ni usar habilidades hasta tu próximo turno)."
+    },
+    {
+      "nombre": "Raíz Alada",
+      "fusion_de": ["Hormiguero Gigante", "Cóndor Andino"],
+      "coste": 3,
+      "fuerza": 6,
+      "resistencia": 7,
+      "tipo": "Bestia/Planta",
+      "habilidad_nueva": "Las fichas de Hormiga que crees también pueden atacar zonas adyacentes como si fueran Aire (heredan el alcance del Cóndor)."
+    },
+    {
+      "nombre": "Vigía de los Vientos Secos",
+      "fusion_de": ["Búho de Arena", "Avestruz Centinela"],
+      "coste": 3,
+      "fuerza": 5,
+      "resistencia": 5,
+      "tipo": "Aire",
+      "habilidad_nueva": "Si hay al menos 2 criaturas aliadas en su zona, también otorga +1 Fuerza a todas ellas."
+    }
+]
+}

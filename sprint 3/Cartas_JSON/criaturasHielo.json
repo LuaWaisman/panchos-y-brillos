@@ -1,0 +1,94 @@
+{
+    "Criaturas de hielo": [
+      {
+        "nombre": "Lobo Glacial",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 3,
+        "tipo": "Bestia",
+        "habilidad": "Congela a la criatura atacada (no puede usar habilidades) hasta tu próximo turno.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Yeti de las Cumbres",
+        "coste": 3,
+        "fuerza": 4,
+        "resistencia": 4,
+        "tipo": "Bestia",
+        "habilidad": "Destruye una carta de efecto en juego.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Pingüino Explorador",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Mueve una criatura aliada a una zona adyacente.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Foca",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 2,
+        "tipo": "Hielo",
+        "habilidad": "Reduce en 1 el coste de la próxima criatura que juegues este turno.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Oso Polar",
+        "coste": 3,
+        "fuerza": 3,
+        "resistencia": 5,
+        "tipo": "Bestia",
+        "habilidad": "Gana +2 Fuerza si está solo en su zona.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Morsa de Hielo",
+        "coste": 3,
+        "fuerza": 3,
+        "resistencia": 4,
+        "tipo": "Bestia",
+        "habilidad": "Al entrar en juego, todas las criaturas enemigas en su zona pierden 1 Fuerza hasta tu próximo turno.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Dientes de sable",
+        "coste": 2,
+        "fuerza": 2,
+        "resistencia": 3,
+        "tipo": "Aire",
+        "habilidad": "Puede atacar criaturas en zonas adyacentes como si estuvieran en la misma zona.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Liebre Ártica",
+        "coste": 1,
+        "fuerza": 2,
+        "resistencia": 1,
+        "tipo": "Bestia",
+        "habilidad": "Al atacar, si sobrevive, mueve esta criatura a una zona adyacente.",
+        "coste_habilidad": 1
+      },
+      {
+        "nombre": "Ballena de Hielo",
+        "coste": 4,
+        "fuerza": 5,
+        "resistencia": 5,
+        "tipo": "Hielo",
+        "habilidad": "Al morir, congela todas las criaturas en su zona hasta el final del siguiente turno.",
+        "coste_habilidad": 2
+      },
+      {
+        "nombre": "Nutria de Crestón",
+        "coste": 1,
+        "fuerza": 1,
+        "resistencia": 2,
+        "tipo": "Bestia",
+        "habilidad": "Al final de tu turno, si hay al menos 3 criaturas aliadas en juego, roba 1 carta.",
+        "coste_habilidad": 1
+      }
+    ]
+}

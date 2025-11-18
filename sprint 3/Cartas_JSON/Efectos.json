@@ -1,0 +1,44 @@
+{
+    "Efectos": [{
+        
+      "nombre": "Instinto de Supervivencia",
+      "efecto": "Una criatura evita todo el daño este turno."
+    },
+    {
+      "nombre": "Caza Coordinada",
+      "efecto": "Dos criaturas aliadas atacan como una sola (suma sus Fuerzas)."
+    },
+    {
+      "nombre": "Emboscada Silenciosa",
+      "efecto": "Coloca una criatura de tu mano directamente en una zona enemiga (solo si es Selva o Montaña)."
+    },
+    {
+      "nombre": "Tormenta de Arena",
+      "efecto": "En una zona de Desierto, todas las criaturas enemigas pierden 1 Fuerza y 1 Resistencia."
+    },
+    {
+      "nombre": "Raíces Protectoras",
+      "efecto": "En una zona de Selva, una criatura gana +2 Resistencia hasta el final del turno."
+    },
+    {
+      "nombre": "Viento Cortante",
+      "efecto": "En una zona de Montaña o Desierto, una criatura de tipo Aire inflige +2 Fuerza en su próximo ataque."
+    },
+    {
+      "nombre": "Congelación Repentina",
+      "efecto": "En una zona de Hielo, una criatura enemiga no puede actuar este turno."
+    },
+    {
+      "nombre": "Refugio en la Roca",
+      "efecto": "Una criatura en una zona de Montaña gana Inmunidad a habilidades enemigas este turno."
+    },
+    {
+      "nombre": "Furia Primigenia",
+      "efecto": "Una criatura Bestia gana +2 Fuerza y ataca inmediatamente."
+    },
+    {
+      "nombre": "Llamado de la Manada",
+      "efecto": "Si controlas al menos 2 criaturas Bestia, roba 2 cartas."
+    }
+  ]
+    }
