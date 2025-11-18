@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>No Man's Land</title>
-    <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <!-- Pantalla 1: Inicio -->
+
+    <!-- Pantalla 1 -->
     <div id="screen1" class="screen active">
         <h1 class="title">NO MAN'S<br>LAND</h1>
         <button class="play-btn" onclick="goToScreen(2)">PLAY</button>
     </div>
 
-    <!-- Pantalla 2: Presentación del mundo -->
+   <!-- Pantalla 2: Presentación del mundo -->
 <div id="screen2" class="screen">
     <h1 class="world-title">EXPLORA LOS TERRITORIOS</h1>
 
     <div class="map-container">
-        <img src="imp/imagen.png" alt="Mapa del mundo" class="map-image">
+        <img src="IMG/imagen.jpeg" class="map-image">
     </div>
 
     <button class="continue-btn" onclick="goToScreen(3)">Continuar</button>
 </div>
 
 
-    <!-- Pantalla 3: Preparación - Barajar cartas -->
+
+    <!-- Pantalla 3 -->
     <div id="screen3" class="screen">
         <div class="players-container">
             <div class="player-section">
@@ -36,9 +37,9 @@
                     <div class="deck-card">MAZO DE<br>CARTAS</div>
                 </div>
             </div>
-            
+
             <div class="divider"></div>
-            
+
             <div class="player-section">
                 <div class="player-label">PLAYER 2</div>
                 <div class="deck-area" id="player2-deck">
@@ -47,17 +48,17 @@
                 </div>
             </div>
         </div>
+
         <button class="start-game-btn" onclick="startGame()">Iniciar Juego</button>
     </div>
 
-    <!-- Pantalla 4: Tablero de juego -->
+    <!-- Pantalla 4 -->
     <div id="screen4" class="screen">
         <div class="game-header">
             <div class="exit-btn" onclick="goToScreen(6)">SALIR</div>
         </div>
-        
+
         <div class="game-board">
-            <!-- Área superior - Player 1 -->
             <div class="top-player">
                 <div class="card-slot special">TERRITORIOS<br>CONQUISTADOS</div>
                 <div class="card-slot">TERRITORIO</div>
@@ -65,15 +66,13 @@
                 <div class="card-slot">TERRITORIO</div>
                 <div class="card-slot special">MAZO</div>
             </div>
-            
-            <!-- Área central -->
+
             <div class="middle-area">
                 <div></div>
                 <div class="central-zone">ZONA DE ATAQUE</div>
                 <div></div>
             </div>
-            
-            <!-- Área inferior - Player 2 -->
+
             <div class="bottom-player">
                 <div class="card-slot special">TERRITORIOS<br>CONQUISTADOS</div>
                 <div class="card-slot">TERRITORIO</div>
@@ -84,7 +83,7 @@
         </div>
     </div>
 
-    <!-- Pantalla 5: Victoria -->
+    <!-- Pantalla 5 -->
     <div id="screen5" class="screen">
         <div class="crown-icon">👑</div>
         <h2 class="victory-text">¡FELICITACIONES!</h2>
@@ -101,7 +100,7 @@
         <button class="leave-btn" onclick="goToScreen(1)">SALIR</button>
     </div>
 
-    <!-- Pantalla 6: Game Over -->
+    <!-- Pantalla 6 -->
     <div id="screen6" class="screen">
         <h2 class="game-over-text">GAME OVER</h2>
         <p class="subtitle-text">BETTER LUCK NEXT TIME</p>
@@ -118,7 +117,6 @@
         </div>
         <button class="leave-btn" onclick="goToScreen(1)">LEAVE</button>
     </div>
-
-    <script src="script.js"></script>
+<script src="JS/script.js"></script>
 </body>
 </html>
