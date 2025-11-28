@@ -48,7 +48,10 @@ Líder/Administrador: María Cruz Correa.
 
 Equipo: Sofía Carricondo, Catalina Gonzalez, Lua Waisaman.
 
+**Lo que hicimos**
+primero buscamos diferentes ideas para ver en que se podia basar el juego. elegimos esta idea mezclando 2 ideas. despues empezamos a planear como se iba jugar, el primer play testing. decidimos que el juego iba a empezar con los 4 territorios yadados, y cada jugador tiene 40 cartas distintas. esas cartas pueden ser de animales, fusiones entre 2 cartas de animales, cartas de energia y de efectos. (en el manual esta todo especificado). despues empezamos a diseñar las cartas, que nos lo dividimos en 2 partes, 1: la aperiencia, de que color, diseño. y la parte 2: el momento que le poniemos todos los datos de cada carta, por ejemplo: un animal, la fuerza: 4 resistencia: 6. tambien el nombre del animal, y un par de cosas mas. despues diseñamos las pantallas y luego empezamos a hacer los codigos.
 
 
 **Colegio Del Carmen-029; 4to Informático.**
+
 
